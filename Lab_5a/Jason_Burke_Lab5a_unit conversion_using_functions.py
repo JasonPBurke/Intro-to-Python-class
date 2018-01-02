@@ -106,3 +106,5 @@ def InchesToCm():
         
 #call main function
 main()
+
+exit = input("\npress enter/return to exit application")

@@ -30,7 +30,9 @@ for student in range (num_students):
         num_of_tests += 1
         total_class_tests += 1
         class_test_total += test_score
-        
+
+        if test_score > 100:
+            print('\nTest Score: ', format(test_score, '.1f'), 'Great job on the extra credit. A++.') 
         if test_score <= 100 and test_score >= 90:
             print('\nTest Score:', format(test_score, '.1f'), 'You got an A on the test.'
                   '  Great Job!')
@@ -77,3 +79,5 @@ if total_class_tests == 0:
 else:
     class_avg = class_test_total / total_class_tests
     print('\nUsing ', total_class_tests, ' test(s), The Class Average is: ', format(class_avg, '.1f'), '.  How do you stack up?', sep='')
+
+exit = input("\npress enter to exit program")

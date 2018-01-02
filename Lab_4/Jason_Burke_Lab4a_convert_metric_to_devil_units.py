@@ -89,3 +89,5 @@ else:
     centimeters = inches * 2.5
     print ('You have', format(centimeters, '.2f'), 'centimeters in', inches, \
            'inches.  Good bye for now!')
+		   
+end = input("press enter/return to exit program:")

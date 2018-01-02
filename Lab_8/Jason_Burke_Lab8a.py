@@ -97,7 +97,7 @@ def main():
     #~calculate # of centimeters : inches * 2.54
         centimeters = inches * 2.5
         print ('You have ', format(centimeters, '.2f'), ' centimeters in ', inches, \
-               ' inches.  Good bye for now, ', fname + '!', sep='')
+               ' inches.  \nGood bye for now, ', fname + '!', sep='')
 
 
 

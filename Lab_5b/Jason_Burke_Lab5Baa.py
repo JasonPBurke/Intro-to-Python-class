@@ -18,7 +18,7 @@ def MilesToKm():
         exit()
     else:
         #write starting values to conversions.txt file
-        outfile.write(miles + '\n')
+        outfile.write(miles + "\n")
         outfile.write('Miles', '\n')
         #calculate km/mi
         mi_to_km = miles * 1.6
@@ -108,3 +108,4 @@ def InchesToCm():
         result = print ('\nYou have', format(centimeters, '.2f'), 'centimeters in', inches, \
                'inches.\n')    
         return result
+
